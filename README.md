@@ -14,6 +14,7 @@ BACKEND
     entrar a la carpeta code/backend
     -Si no está instalado alguno de los paquetes, ejecuta el comando:
     npm install
+    
     -Arrancar el servidor, ejecuta el comando: 
     nodemon server.js
     
@@ -22,6 +23,7 @@ FRONTEND
     entrar a la carpera code/frontend
     -Si no está instalado alguno de los paquetes, ejecuta el comando: 
     npm install
+    
     -Arrancar frontend, ejecuta el comando:
     npm start
     
