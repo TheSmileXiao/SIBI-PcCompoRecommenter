@@ -29,5 +29,3 @@ FRONTEND
   entrar a la carpeta code/
   -Ejecuta el comando: 
   npm run app
-  
-
