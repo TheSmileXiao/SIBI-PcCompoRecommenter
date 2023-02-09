@@ -1,0 +1,23 @@
+.product-box {
+  padding: 2rem;
+  line-height: initial;
+  border: 1px solid white;
+}
+.product-box .info {
+  padding-left: 2rem;
+}
+.product-box .info .show-more{
+  cursor: pointer;
+}
+
+.product-box .score {
+  color: blue;
+}
+.product-box .info .rating {
+  display: flex;
+  align-items: center;
+}
+
+.product-box .info .rating .rating-number{
+  margin-left: 1rem;
+}

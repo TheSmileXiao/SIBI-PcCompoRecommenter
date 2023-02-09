@@ -1,0 +1,15 @@
+.header {
+  height: 68px;
+  border-bottom: 2px solid white;
+  background-color: #24292e;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo{
+  margin: 1rem 3rem;
+  cursor: pointer;
+}
+.header .button {
+  margin: 1rem 3rem;
+  padding: 0 3rem;
+}

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "server": "cd backend && nodemon server.js",
+    "client": "cd frontend && npm start",
+    "app": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

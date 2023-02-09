@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: #081627;
+  color: #b2bcc2;
+  padding: 5rem 2rem;
+}
+.sidebar .title {
+  margin: 2rem;
+  font-size: 2rem;
+  border-bottom: 1px solid white;
+}
+.sidebar .content .menu-link {
+  padding-left: 0;
+}
+.sidebar .content .menu-link .menu-item {
+  font-size: 1.6rem;
+  color: #b2bcc2;
+}
+
+.sidebar .content .menu-link .menu-item:hover {
+  color: #1976d2;
+}
+
+.sidebar .user-type {
+  margin: 0;
+  padding: 6px 16px;
+  font-size: 1.6rem;
+  color: #b2bcc2;
+  font-weight: 400;
+  text-transform: capitalize;
+  cursor: pointer;
+}

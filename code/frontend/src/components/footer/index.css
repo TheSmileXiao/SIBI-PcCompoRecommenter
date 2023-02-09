@@ -1,0 +1,11 @@
+.footer {
+  display: inline;
+  bottom: 0;
+  background-color: #26293b;
+}
+.footer-block {
+  height: 40px;
+}
+.footer-text {
+  color: white;
+}

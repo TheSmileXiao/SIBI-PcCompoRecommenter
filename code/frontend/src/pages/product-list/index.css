@@ -1,0 +1,14 @@
+.home .product-list .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-list .title {
+  margin-top: 3rem;
+}
+.product-list .product-list-container {
+  margin: 5rem;
+}
+.product-list .pagination {
+  margin: 2rem;
+}

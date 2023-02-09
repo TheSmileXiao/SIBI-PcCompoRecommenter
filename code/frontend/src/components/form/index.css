@@ -1,0 +1,31 @@
+
+.login-background .login-container {
+  background-color: white;
+  padding: 4rem 2rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 450px;
+  top: calc((100% - 556px) /2);
+  z-index: 20;
+}
+.login-background .login-container .login-item {
+  margin-top: 2rem;
+}
+.register {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.closer {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .login-background .login-container {
+    min-width: 80%;
+  }
+}
