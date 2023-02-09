@@ -10,16 +10,16 @@ LISTA
 BACKEND
   para ejecutar el backend desde el terminal
     entrar a la carpeta code/backend
-    -Si no está instalado alguno de los paquetes, ejecuta el comando: '''npm install'''
-    -Arrancar el servidor, ejecuta el comando: '''nodemon server.js'''
+    -Si no está instalado alguno de los paquetes, ejecuta el comando: ```npm install```
+    -Arrancar el servidor, ejecuta el comando: ```nodemon server.js```
 
 FRONTEND
   para ejecutar el frontend desde el terminal
     entrar a la carpera code/frontend
-    -Si no está instalado alguno de los paquetes, ejecuta el comando: '''npm install'''
-    -Arrancar el servidor, ejecuta el comando: '''npm start'''
+    -Si no está instalado alguno de los paquetes, ejecuta el comando: ```npm install```
+    -Arrancar el servidor, ejecuta el comando: ```npm start```
  
  O tambíen puede arrancar el backend y frontend con un solo comando
   entrar a la carpeta code
-  -Ejecuta el comando: '''npm run app'''
+  -Ejecuta el comando: ```npm run app```
 
