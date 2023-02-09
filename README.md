@@ -22,10 +22,10 @@ FRONTEND
     entrar a la carpera code/frontend
     -Si no está instalado alguno de los paquetes, ejecuta el comando: 
     npm install
-    -Arrancar frontend, ejecuta el comando: 
+    -Arrancar frontend, ejecuta el comando:
     npm start
     
  O tambíen puede arrancar el BACKEND y FRONTEND con un solo comando
   entrar a la carpeta code/
-  -Ejecuta el comando: 
+  -Ejecuta el comando:  
   npm run app
