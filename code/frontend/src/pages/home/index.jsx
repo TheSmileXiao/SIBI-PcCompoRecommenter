@@ -108,7 +108,8 @@ export class Home extends Component {
       let query = '';
 
       if(this.state.pricePart.graphic === 0){
-        query = `MATCH (a:Cpu) WHERE a.price < ${this.state.price*this.state.pricePart.cpu/this.state.pricePart.total} AND a.integrated_graphics <> '' return a order by a.core_clock_GHz DESC limit 50`;
+        query = `MATCH (a:Cpu) WHERE a.price < ${this.state.price*this.state.pricePart.cpu/this.state.pricePart.total}
+         AND a.integrated_graphics <> '' return a order by a.core_clock_GHz DESC limit 50`;
       }else{
         query = `MATCH (a:Cpu) WHERE a.price < ${this.state.price*this.state.pricePart.cpu/this.state.pricePart.total} return a order by a.core_clock_GHz DESC limit 50`;
       }
@@ -582,8 +583,7 @@ export class Home extends Component {
   }
 
   render() {
-    const {userType} = this.props.AppState;
-
+    console.log(this.state.pricePart);
     return (
       <>
         <Header AppState={this.props.AppState} setLogged={this.props.setLogged} setUserType={this.props.setUserType} setShowChangeTypeForm={this.props.setShowChangeTypeForm} goHome={this.goHome}/>

@@ -7,7 +7,7 @@ export default class Footer extends Component {
       <footer className="footer row">
         <div className="col-xs-12 center-xs middle-xs footer-block">
           <p className="footer-text">
-            ©2023 YX PC Recommender, LLC. All rights reserved.
+            ©2023 YX PC Recommender, LLC. All rights reserved.  (Data updated in January - 2023)
           </p>
         </div>
         <div className="col-xs-12 col-sm-6 center-xs middle-xs footer-block">
