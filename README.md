@@ -1,5 +1,7 @@
 ﻿# pc-components-recommenter
  
+ YX PC RECOMMENDER es una aplicación que recomienda los componentes al usuario teniendo en cuente su presupuesto y preferencia de uso del ordenador.
+ 
 HOME
 
 ![image](https://user-images.githubusercontent.com/93156255/217848408-15279423-09d9-4653-8d9c-b23ec2a9571c.png)
